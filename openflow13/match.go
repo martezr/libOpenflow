@@ -5,7 +5,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/shaleman/libOpenflow/util"
+	"github.com/martezr/libOpenflow/util"
 )
 
 // ofp_match 1.3
@@ -265,7 +265,7 @@ func DecodeMatchField(class uint16, field uint8, data []byte) util.Message {
 	return nil
 }
 
-//  ofp_match_type 1.3
+// ofp_match_type 1.3
 const (
 	MatchType_Standard = iota /* Deprecated. */
 	MatchType_OXM

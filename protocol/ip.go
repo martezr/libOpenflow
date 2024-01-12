@@ -5,7 +5,7 @@ import (
 	"errors"
 	"net"
 
-	"github.com/shaleman/libOpenflow/util"
+	"github.com/martezr/libOpenflow/util"
 )
 
 const (

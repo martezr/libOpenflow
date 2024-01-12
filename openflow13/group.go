@@ -5,8 +5,8 @@ package openflow13
 import (
 	"encoding/binary"
 
-	log "github.com/Sirupsen/logrus"
-	"github.com/shaleman/libOpenflow/common"
+	"github.com/martezr/libOpenflow/common"
+	log "github.com/sirupsen/logrus"
 )
 
 const (

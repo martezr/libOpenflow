@@ -3,10 +3,10 @@ package openflow13
 import (
 	"encoding/binary"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 
-	"github.com/shaleman/libOpenflow/common"
-	"github.com/shaleman/libOpenflow/util"
+	"github.com/martezr/libOpenflow/common"
+	"github.com/martezr/libOpenflow/util"
 )
 
 // ofp_multipart_request 1.3
